@@ -85,8 +85,8 @@ author:
   bio              : "PhD Student at University of California, San Diego"
   location         : "La Jolla, California"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=iw&user=7wq__IgAAAAJ"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=7wq__IgAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"academicpages"
+  github           : "https://github.com/omersabary"
   google_plus      :
   keybase          :
   instagram        :
