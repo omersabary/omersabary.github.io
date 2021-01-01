@@ -1,7 +1,7 @@
 ---
 title: "Reconstruction Algorithms for DNA Storage Systems"
 collection: publications
-permalink: /publication/2020-reconstruction-algorithms-for-DNA-storage-systems.md
+permalink: /publication/2020-reconstruction-algorithms-for-DNA-storage-systems
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2020-10-01
 venue: 'Submitted to Bioinformatics'
