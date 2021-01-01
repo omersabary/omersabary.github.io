@@ -10,4 +10,4 @@ citation: ''
 ---
 
 
-O. Sabary,    A. Yucovich,    G. Shapira,    E. Yaakobi,    “Reconstruction    AlgorithmsforDNA-StorageSystems,” bioRxiv2020.09.16.300186;doi:https://doi.org/10.1101/2020.09.16.300186, 2020
+O. Sabary,    A. Yucovich,    G. Shapira,    E. Yaakobi,    “Reconstruction    Algorithms for DNA-Storage Systems,” bioRxiv2020.09.16.300186;doi:https://doi.org/10.1101/2020.09.16.300186, 2020
