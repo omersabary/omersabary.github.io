@@ -7,6 +7,6 @@ excerpt: 'This paper is about the number 2. The number 3 is left for future work
 date: 2020-01-15
 venue: 'ISIT 2020'
 paperurl: 'https://arxiv.org/abs/2001.05582'
-citation: ''
+citation: 'O. Sabary, E. Yaakobi, and A. Yucovich, ”The Error Probability of Maximum-Likelihood Decoding over Two Deletion Channels," arXiv preprint, arXiv:2001.05582, 2020'
 ---
 O. Sabary, E. Yaakobi, and A. Yucovich, ”The Error Probability of Maximum-Likelihood Decoding over Two Deletion Channels," arXiv preprint, arXiv:2001.05582, 2020
