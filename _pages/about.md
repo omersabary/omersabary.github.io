@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am Omer Sabary, a PhD student at the [Center of Memory and Recording Research](https://cmrr.ucsd.edu/), Electrical and Computer Engineering Department at UC San Diego. 
-I am very proud to be advised by Professor [Paul H. Siegel](http://cmrr-star.ucsd.edu/psiegel/). 
+I am very proud to be advised by Professor [Paul H. Siegel](http://cmrr-star.ucsd.edu/psiegel/) and very grateful to be advised by Professor [Eitan Yaakobi](http://yaakobi.net.technion.ac.il/). 
 
 ---
 
