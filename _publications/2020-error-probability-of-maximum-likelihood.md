@@ -9,4 +9,4 @@ venue: 'IEEE International Symposium on Information Theory (ISIT)'
 paperurl: 'https://arxiv.org/abs/2001.05582'
 citation: 'O. Sabary, E. Yaakobi, and A. Yucovich, ”The Error Probability of Maximum-Likelihood Decoding over Two Deletion Channels," arXiv preprint, arXiv:2001.05582, 2020'
 ---
-O. Sabary, E. Yaakobi, and A. Yucovich, ”The Error Probability of Maximum-Likelihood Decoding over Two Deletion Channels," arXiv preprint, arXiv:2001.05582, 2020
+O. Sabary, E. Yaakobi and A. Yucovich, "The Error Probability of Maximum-Likelihood Decoding over Two Deletion/Insertion Channels," IEEE International Symposium on Information Theory (ISIT), pp. 763-768, 2020.
