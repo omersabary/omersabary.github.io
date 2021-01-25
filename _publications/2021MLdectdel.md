@@ -1,7 +1,7 @@
 ---
 title: "The Error Probability of Maximum Likelihood Decoding for the t-Deletion Channel"
 collection: publications
-permalink: /publication/2021-error-probability-of-ML-decoding-for-t-del
+permalink: /publication/2021MLdectdel
 excerpt: ''
 date: 2021-01-25
 venue:
