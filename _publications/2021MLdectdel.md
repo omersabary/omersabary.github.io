@@ -10,7 +10,7 @@ citation: 'D. Bar-Lev, Y. Gershon, O. Sabary, and E. Yaakobi. "The Error Probabi
 ---
 **Preprint.** 
 
-[Full Paper](https://drive.google.com/file/d/1TTdqT9Lpwtv3jw5_xGT0WjkfK1-kP0u2/view?usp=sharing)
+[Full Paper](https://omersabary.com/files/ML-ISIT2021EXT.pdf)
 
 **Abstract** 
 
