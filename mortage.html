@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Beehive</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+    <!-- Include Bootstrap Datepicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- Include Bootstrap Datepicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+
+
+    <script type="text/javascript">
+
+        const INTEREST = 0.03 / 12
+
+        $(document).ready(function () {
+            $("#startDate").datepicker({
+                language: "he"
+            });
+            $("#endDate").datepicker({
+                language: "he"
+            });
+
+            $('#btnCalc').on('click', function () {
+                let res = stringToBoolean()
+                if (res.recycle) {
+                    alert(`כדאי למחזר ולחסוך ${Math.ceil(res.price)} ש"ח`)
+                } else {
+                    alert("לא כדאי לבצע מחזור משכנתא")
+                }
+            });
+        });
+
+        function stringToBoolean() {
+            let cost = $('#cost')[0].value
+            let interestRate = $('#interestRate')[0].value
+            let remainingCost = $('#remainingCost')[0].value
+            let monthlyPayment = $('#monthlyPayment')[0].value
+            let startDate = $('#startDate')[0].value
+            let endDate = $('#endDate')[0].value
+
+
+            let months = monthDiff(new Date(startDate), new Date(endDate));
+            let remainingMonth = monthDiff(new Date(), new Date(endDate))
+            let suggestedRemainingMonth = remainingCost * (INTEREST / (1-(1/Math.pow((1+INTEREST), remainingMonth))))
+            let newCost = (monthlyPayment * remainingMonth) - (suggestedRemainingMonth * remainingMonth)
+            if (remainingMonth <= (months / 2) || newCost <= 0 ){
+                return {"recycle": false}
+            }
+
+            return {"recycle": true, "price": newCost}
+        }
+
+        function monthDiff(d1, d2) {
+            var months;
+            months = (d2.getFullYear() - d1.getFullYear()) * 12;
+            months -= d1.getMonth();
+            months += d2.getMonth();
+            return months <= 0 ? 0 : months;
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+
+        </div>
+        <div class="col-sm-8">
+            <h1>Welcome</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="cost" class="form-label">סכום המשכנתא</label>
+                    <input type="number" class="form-control" id="cost" aria-describedby="1000000">
+                </div>
+
+                <div class="mb-3">
+                    <label for="interestRate" class="form-label">אחוז ריבית</label>
+                    <input type="number" class="form-control" id="interestRate" aria-describedby="1000000">
+                </div>
+
+                <div class="mb-3">
+
+                    <div class="dates">
+                    <div class="start_date input-group mb-4">
+                        <input class="form-control start_date" type="text" placeholder="מועד התחלה" value="01/01/2020" id="startDate">
+                        <div class="input-group-append">
+                            <span class="fa fa-calendar input-group-text" aria-hidden="true"></span>
+                        </div>
+
+                    </div>
+                    <div class="end_date input-group mb-4">
+                        <input class="form-control end_date" type="text" placeholder="מועד סיום" value = "02/28/2041" id="endDate">
+                        <div class="input-group-append">
+                            <span class="fa fa-calendar input-group-text" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="remainingCost" class="form-label">יתרה לתשלום</label>
+                    <input type="number" class="form-control" id="remainingCost" value=300000 aria-describedby="1000000">
+                </div>
+
+                <div class="mb-3">
+                    <label for="monthlyPayment" class="form-label">תשלום חודשי</label>
+                    <input type="number" class="form-control" id="monthlyPayment" value=1980 aria-describedby="1000000">
+                </div>
+
+                <button type="button" class="btn btn-primary" id="btnCalc">Submit</button>
+            </form>
+
+        </div>
+        <div class="col-sm-2 sidenav">
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
