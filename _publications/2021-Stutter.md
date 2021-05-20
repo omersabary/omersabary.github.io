@@ -4,12 +4,13 @@ collection: publications
 permalink: /publication/2021-Stutter
 excerpt: ''
 date: 2021-05-14
-venue:
+venue: 'IEEE Information Theory Workshop (ITW), 2021'
 paperurl: ''
-citation: 'R. Shafir, O. Sabary, L. Anavy, E. Yaakobi, and Z. Yakhini. "Sequence Reconstruction Under Stutter Noise in Enzymatic DNA Synthesis", 2021.'
+citation: 'R. Shafir, O. Sabary, L. Anavy, E. Yaakobi, and Z. Yakhini. "Sequence Reconstruction Under Stutter Noise in Enzymatic DNA Synthesis", IEEE Information Theory Workshop (ITW), 2021.'
 ---
 **Preprint.** 
 
+[Short Paper](https://omersabary.com/files/Stutter_Synthesis.pdf)
 [Full Paper](https://omersabary.com/files/Stutter-FULL.pdf)
 
 **Abstract** 

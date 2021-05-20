@@ -16,6 +16,5 @@ I completed my MSc in 2020 at the Computer Science Faculty, at the Technion, und
 
 ---
 
-My research interests are reconstruction algorithms for DNA storage systems, error characterization of the DNA storage channel and software and algorithms for DNA storage systems.
-
+My research interests are algorithms and information and coding theory for DNA applications.
 
