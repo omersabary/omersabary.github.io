@@ -3,10 +3,10 @@ title: "The Intersection of Insertion and Deletion Balls"
 collection: publications
 permalink: /publication/2021-intersection
 excerpt: ''
-date: 2021-01-25
+date: 2021-06-01
 venue: 
 paperurl: ''
-citation: 'D. Bar-Lev, O. Sabary, Y. Gershon, and E. Yaakobi. "The Intersection of Insertion and Deletion Balls,", IEEE Information Theory Workshop (ITW), 2021'
+citation: 'D. Bar-Lev, O. Sabary, Y. Gershon, and E. Yaakobi. "The Intersection of Insertion and Deletion Balls,", Submitted to IEEE Information Theory Workshop (ITW), 2021'
 ---
 **Preprint.** 
 [Paper](https://omersabary.com/files/int.pdf)
