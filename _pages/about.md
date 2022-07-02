@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Omer Sabary, a PhD student at the Electrical and Computer Engineering Department at UC San Diego. 
+I am Omer Sabary, a PhD student at the Taub Faculty of Computer Science at the Technion, Haifa, Israel.  I am very fortunate to be advised by Prof. Eitan Yaakobi.  
 
 ---
 
