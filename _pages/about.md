@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Omer Sabary, a PhD student at the Taub Faculty of Computer Science at the Technion, Haifa, Israel.  I am very fortunate to be advised by Prof. Eitan Yaakobi.  
+I am Omer Sabary, a PhD student at the Taub Faculty of Computer Science at the Technion, Haifa, Israel.  I am very fortunate to be advised by Prof. [Eitan Yaakobi](http://yaakobi.net.technion.ac.il/) and Prof. Antonia Wachter-Zeh.  
 
 ---
 
-I completed my MSc in 2020 at the Computer Science Faculty, at the Technion, under the supervision of Professor [Eitan Yaakobi](http://yaakobi.net.technion.ac.il/).
+I completed my MSc in 2020 at the Computer Science Faculty, at the Technion, under the supervision of Professor Eitan Yaakobi.
 
 ---
 
