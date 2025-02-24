@@ -12,7 +12,7 @@ I am Omer Sabary, a PhD student at the Taub Faculty of Computer Science at the T
 
 ---
 
-I completed my MSc in 2020 at the Computer Science Faculty, at the Technion, under the supervision of Professor Eitan Yaakobi.
+I completed my MSc in 2020 at the Computer Science Faculty, at the Technion, under the supervision of Professor Eitan Yaakobi..
 
 ---
 
